@@ -36,6 +36,7 @@ $routes->get('/', 'Home::index');
 $routes->get('/contacto', 'Home::contacto');
 $routes->get('/usuarios','UsuariosController::index');
 $routes->get('/catalogo','UsuariosController::catalogo');
+$routes->get('/usuario','UsuariosController::ver_usuarios');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
